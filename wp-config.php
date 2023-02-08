@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', "mh-2" );
+define( 'DB_NAME', "trio-amm" );
 
 /** Database username */
 define( 'DB_USER', "root" );
@@ -85,7 +85,7 @@ define( 'WP_DEBUG', false );
 
 
 
-define( 'WP_SITEURL', 'http://localhost/mh-2/' );
+define( 'WP_SITEURL', 'http://localhost/trio-amm/' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
