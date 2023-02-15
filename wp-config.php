@@ -1,4 +1,12 @@
 <?php
+
+// BEGIN iThemes Security - Do not modify or remove this line
+// iThemes Security Config Details: 2
+define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
+// END iThemes Security - Do not modify or remove this line
+
+define( 'ITSEC_ENCRYPTION_KEY', 'WystPjBDJmRLTG9vTzcsNWlmYlZIMEUjXVptMmJsIDEoTmg/YSFNVG9Ne3xFMzd9bCguMCgzclBDa31VcyFwYQ==' );
+
 /**
  * The base configuration for WordPress
  *
@@ -20,7 +28,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', "trio-amm" );
+define( 'DB_NAME', "amm" );
 
 /** Database username */
 define( 'DB_USER', "root" );
@@ -65,7 +73,7 @@ define( 'NONCE_SALT',       '2^0Czz]UuB6}MdBu_L<p;#&7wMCZXcCj3|ZHcPBO[G`+f!D8]y 
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'edmr1a_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -85,7 +93,7 @@ define( 'WP_DEBUG', false );
 
 
 
-define( 'WP_SITEURL', 'http://localhost/trio-amm/' );
+define( 'WP_SITEURL', 'http://localhost/amm/' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
