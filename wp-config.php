@@ -5,6 +5,9 @@
 define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
 // END iThemes Security - Do not modify or remove this line
 
+/** Enable W3 Total Cache */
+define( 'WP_CACHE', true ); // Added by W3 Total Cache
+
 define( 'ITSEC_ENCRYPTION_KEY', 'WystPjBDJmRLTG9vTzcsNWlmYlZIMEUjXVptMmJsIDEoTmg/YSFNVG9Ne3xFMzd9bCguMCgzclBDa31VcyFwYQ==' );
 
 /**
@@ -28,7 +31,7 @@ define( 'ITSEC_ENCRYPTION_KEY', 'WystPjBDJmRLTG9vTzcsNWlmYlZIMEUjXVptMmJsIDEoTmg
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', "amm" );
+define( 'DB_NAME', "trio-amm" );
 
 /** Database username */
 define( 'DB_USER', "root" );
@@ -93,7 +96,7 @@ define( 'WP_DEBUG', false );
 
 
 
-define( 'WP_SITEURL', 'http://localhost/amm/' );
+define( 'WP_SITEURL', 'http://localhost/trio-amm/' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
